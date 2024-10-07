@@ -3,6 +3,8 @@ import { ajoutListenersAvis, afficherAvis } from "./avis.js";
 // Récupération des pièces éventuellement stockées dans le localStorage
 let pieces = window.localStorage.getItem("pieces");
 
+
+
 if (pieces === null) {
 	// Récupération des pièces depuis l'API HTTP
 	const reponse = await fetch("http://localhost:8081/pieces");
