@@ -1,6 +1,6 @@
 import { ajoutListenersAvis, afficherAvis } from "./avis.js";
 
-// Récupération des pièces éventuellement stockées dans le localStorage
+// Récupération des pièces éventuellement stockées dans le localStorage du navigateur
 let pieces = window.localStorage.getItem("pieces");
 
 
