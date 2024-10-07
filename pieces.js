@@ -5,6 +5,7 @@ let pieces = window.localStorage.getItem("pieces");
 
 
 
+
 if (pieces === null) {
 	// Récupération des pièces depuis l'API HTTP
 	const reponse = await fetch("http://localhost:8081/pieces");
